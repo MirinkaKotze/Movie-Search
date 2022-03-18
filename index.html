@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font - Poppins - Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Style - Links -->
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Movie Search</title>
+  </head>
+  <body id="entryPoint" class="screen">
+    <!-- SEARCH SECTION -->
+    <div class="search__container">
+      <h1 class="search__header">
+        Search your favourite movie, series or episode!!
+      </h1>
+      <div class="search__wrapper">
+        <input
+          id="searchInput"
+          class="search__input"
+          name="search"
+          placeholder="TITLE"
+        />
+        <select id="searchType" class="search__drop-down">
+          <option>---TYPE---</option>
+          <option>movie</option>
+          <option>series</option>
+          <option>episode</option>
+        </select>
+        <button id="submitButton" class="search__button" type="submit">
+          SEARCH
+        </button>
+      </div>
+    </div>
+
+    <div id="favouritesContainer"></div>
+
+    <div id="movieContainer"></div>
+
+    <div id="movieDetailsContainer"></div>
+
+    <div id="favouritesAlreadySavedContainer"></div>
+
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>
