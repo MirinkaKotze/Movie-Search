@@ -1,6 +1,8 @@
 # Movie-Search
 Beetroot Academy - Lesson 33
 
+Live Page URL: https://mirinkakotze.github.io/Movie-Search/
+
 Movie Search is a web page that allows you to search any movie!
 
 The movie information is obtained from API OMDB link: http://www.omdbapi.com/.
